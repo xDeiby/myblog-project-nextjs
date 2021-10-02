@@ -1,0 +1,39 @@
+/* Menu Buttons */
+.ul {
+  list-style: none;
+  padding: 0px;
+  display: inline-block;
+}
+
+.li {
+  display: inline-block;
+}
+
+.Link {
+  display: block;
+  padding: 5px 15px;
+  font-weight: bold;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  color: gray;
+  /* padding: 5px 15px; */
+}
+
+/* Menu - Logo Container */
+.menuLogo {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+/* Header Container */
+
+.header {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  justify-content: space-around;
+}
